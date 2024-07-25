@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿‽¿??‽???¿‽¿¿‽‽‽‽¿?</title>
+    <style>
+        body {
+            background-image: url('https://media.giphy.com/media/aKo8xdrBt2BtwsyS78/giphy.gif'); /* Ganti dengan URL GIF valid */
+            background-size: cover; /* Mengatur ukuran background supaya menutupi seluruh layar */
+            background-position: center; /* Mengatur posisi background ke tengah */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            font-family: monospace;
+            position: relative;
+            background-repeat: no-repeat; /* Pastikan background tidak diulang */
+        }
+
+        .typing {
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: .15em solid red; /* Garis bawah merah untuk efek error */
+            animation: typing 5s steps(30, end), blink-caret .75s step-end infinite;
+            font-size: 1.5em; /* Ukuran teks utama */
+            text-decoration: none;
+            color: white;
+        }
+
+        .author {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 0.75em; /* Ukuran jauh lebih kecil */
+            text-decoration: none;
+            color: white;
+            animation: hack 5s steps(20, end) infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: red } /* Ganti warna menjadi merah untuk efek error */
+        }
+
+        @keyframes hack {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            20% { opacity: 0; }
+            30% { opacity: 1; }
+            40% { opacity: 0; }
+            50% { opacity: 1; }
+            60% { opacity: 0; }
+            70% { opacity: 1; }
+            80% { opacity: 0; }
+            90% { opacity: 1; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://‽??¿¿¿?‽??‽.com" class="typing">What do you want?‽‽??‽¿¿‽‽???</a>
+    <a href="https://‽??¿¿¿?‽??‽.com" class="author">-Fukushiro.</a>
+</body>
+</html>
